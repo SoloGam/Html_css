@@ -78,11 +78,11 @@ a:hover{
 .ticket{
   position: fixed;
   top:0px;
-  right:800px;
+  right:700px;
   width: 290px;
 }
 .tabel{
-  margin-left:20px; 
+  margin-left:20px;
   border-spacing: 0px;
 
 }
