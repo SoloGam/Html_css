@@ -19,12 +19,43 @@ h1
 p{
   font-family: monospace;
   font-style: oblique;
+  color: blue;
 }
 a{
-  font-family: cursive;
-  color: Black;
+  font-family: monospace;
+  font-style: oblique;
 }
 .denumire{
    font-family: serif;
    color: red;
+}
+.guarantee{
+  border-color: yellow;
+  border-width: medium;
+  border-style: dashed;
+  background-color: yellow;
+  line-height: 2em;
+  padding:15px;
+  padding-left: 230px;
+  margin: 10px;
+  background-image: url(images/coffee.jpg);
+  background-repeat: no-repeat;
+  background-position: topleft;
+  min-height: 190px;
+  min-height: 190px;
+  text-align: center;
+
+}
+
+a:link{
+  color: red;
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+}
+
+a:hover{
+  color: green;
 }
