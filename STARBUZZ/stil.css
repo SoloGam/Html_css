@@ -30,7 +30,7 @@ a{
    color: red;
 }
 .guarantee{
-  border-color: yellow;
+  border-color: black;
   border-width: medium;
   border-style: dashed;
   background-color: yellow;
@@ -38,12 +38,20 @@ a{
   padding:15px;
   padding-left: 230px;
   margin: 10px;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   background-image: url(images/coffee.jpg);
   background-repeat: no-repeat;
   background-position: topleft;
   min-height: 190px;
-  min-height: 190px;
+  max-height: 190px;
   text-align: center;
+  box-sizing: border-box;
+  min-width: 400px;
+  max-width: 600px;
+    float: right;
+  /* position: fixed; */
 
 }
 
@@ -58,4 +66,23 @@ a:visited{
 
 a:hover{
   color: green;
+}
+
+.song{
+  font-style: italic;
+}
+
+.artist{
+  font-weight: bold;
+}
+.ticket{
+  position: fixed;
+  top:0px;
+  right:800px;
+  width: 290px;
+}
+.tabel{
+  margin-left:20px; 
+  border-spacing: 0px;
+
 }
