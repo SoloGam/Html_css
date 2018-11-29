@@ -1,0 +1,52 @@
+body, html{
+  height: 100%;
+}
+.container{
+height: 100%;
+background-color: #333333;
+display: flex;
+align-items: center;
+justify-content: center
+}
+/* .icecream{
+
+} */
+.flavor{
+position: relative;
+width: 190px;
+height: 260px;
+border-radius: 90px 90px 10px 10px;
+overflow: hidden;
+
+}
+.flavours{
+  position: relative;
+  background-color:  blue;
+  top: 0%;
+  left: -10%;
+  width: 140% ;
+
+  height: 140% ;
+  background-image: linear-gradient(0deg, red 33%, yellow 33%, yellow 66%, blue 66%, blue);
+  transform: rotate(150deg);
+  background-position: 0px 0px;
+  background-repeat: repeat-y;
+  animation-name: animate;
+  animation-repeat: infinite;
+  animation-duration: 60s;
+
+}
+.stick{
+width: 57px;
+height: 86px;
+background-color: brown;
+border-radius: 0 0 25px 25px;
+display: block;
+margin: 0 auto;
+}
+
+@keyframes animate {
+  to{
+    background-position: 0px -1000px;
+  }
+}

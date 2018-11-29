@@ -1,0 +1,115 @@
+
+body {
+  background-color: tan;
+  font-family: sans-serif;
+  margin-left: 10%
+}
+
+h2
+{
+  color: black;
+  font-style: italic;
+  font-family: cursive;
+}
+h1
+{
+  color: black;
+  font-family: fantasy;
+}
+p{
+  font-family: monospace;
+  font-style: oblique;
+  color: blue;
+}
+a{
+  font-family: monospace;
+  font-style: oblique;
+}
+.denumire{
+   font-family: serif;
+   color: red;
+}
+.guarantee{
+  border-color: black;
+  border-width: medium;
+  border-style: dashed;
+  background-color: yellow;
+  line-height: 2em;
+  padding:15px;
+  padding-left: 230px;
+  margin: 10px;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(images/coffee.jpg);
+  background-repeat: no-repeat;
+  background-position: topleft;
+  min-height: 190px;
+  max-height: 190px;
+  text-align: center;
+  box-sizing: border-box;
+  min-width: 400px;
+  max-width: 600px;
+    float: right;
+  /* position: fixed; */
+
+}
+
+a:link{
+  color: red;
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+}
+
+a:hover{
+  color: green;
+}
+
+.song{
+  font-style: italic;
+}
+
+.artist{
+  font-weight: bold;
+}
+.ticket{
+  position: fixed;
+  top:0px;
+  right:700px;
+  width: 200px;
+  height: 100px;
+  transition: width 2s, height 2s;
+  transition-timing-function: ease-in-out ;
+  /* transform: rotate(30deg)scale(1, 1.5) rotateZ(30deg) ; */
+}
+.ticket:hover{
+  width: 400px;
+  height: 400px;
+}
+@@keyframes colors {
+  from {
+    background-color: yellow;
+  }
+  to{
+    background-color: purple;
+  }
+}
+/* .tabel{
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left:5px;
+  border-spacing: 15px;
+  border-color: black;
+  border-width: medium;
+  border-style: groove;
+  border-spacing: 25px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 15px;
+  text-align: center;
+} */
