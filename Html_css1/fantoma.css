@@ -1,0 +1,28 @@
+body, html{
+  height: 100%;
+}
+
+.container{
+  height: 100%;
+  background-color: #590a96;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Ghost{
+  position: relative;
+  width: 250px;
+  height: 400px;
+  border-radius: 70px 70px 0 0;
+  overflow: hidden;
+}
+.Eye_L{
+  position: relative;
+  background-color: white;
+  top: 0%;
+  left: -10%;
+  width: 140% ;
+  height: 140% ;
+
+}
