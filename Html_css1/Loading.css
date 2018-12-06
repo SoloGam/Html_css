@@ -9,26 +9,29 @@ align-items: center;
 justify-content: center
 }
 .Corp{
+  transform: translate(0px,100px);
   background-color: white;
   height: 50px;
   width: 100%;
   overflow: hidden;
+
 }
 .Bara{
   position: relative;
   background-color: black;
   height: 50px;
   width: 10%;
-  transform: translate(-60px,0px);
+  transform: translate(-100,0px);
   /* transform: rotate(90deg); */
   background-image: linear-gradient(-90deg, red 33%, yellow 33%, yellow 66%, blue 66%, blue);
   animation-name: Load;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 @keyframes Load {
   to{
-    transform: translate(600px,0px);
+    transform: translate(480px,0px);
   }
 }
